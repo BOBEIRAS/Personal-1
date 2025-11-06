@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+body {
+    background-color: #f4f4f4;
+    color: rgb(39, 38, 38);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#titulo {
+    padding-top: 1px;
+}
+
+#cab {
+    background-color: #ff0055;
+}
+
+#logo img {
+    width: 300px;
+    height: auto;
+    float: right;
+}
+
+#navbar {
+    background-color: rgb(39, 38, 38);
+}
+
+#navbar li {
+
+    display: inline;
+    padding-right: 10px;
+
+    a {
+        text-decoration: none;
+        color: #f4f4f4;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    a:hover {
+        color: #ff0035;
+    }
+
+    a:active {
+        color: rgb(151, 0, 138);
+    }
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 3px solid #ff0055;
+    box-shadow: 0 0 10px #ff0055;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+h2 {
+    color: #ff0055;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+a {
+    color: #ff0035;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.about-text p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.about {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 2rem;
+    background-color: #0f0f0f;
+    color: #e0e0e0;
+    font-family: 'Orbitron', sans-serif;
+    border: 2px solid #ff0055;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #ff0055;
+}
+
+
+.contact {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #0f0f0f;
+    color: #e0e0e0;
+    font-family: 'Orbitron', sans-serif;
+    border: 2px solid #ff0055;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #ff0055;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 2px solid #ff0055;
+    border-radius: 4px;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+    background-color: #ff0055;
+    color: #e0e0e0;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ff0080;
+    box-shadow: 0 0 10px #ff0055;
+}
+
+p {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+p a {
+    color: #ff0035;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
