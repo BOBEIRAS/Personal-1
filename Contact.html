@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hobbies</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -25,7 +25,8 @@
     <nav id="navbar">
         <div class="container">
             <ul>
-                <li><a href="https://site.ae-salvaterra.pt" target="_blank" title="Site da escola"><i class="fa-solid fa-school"></i> Escola</a></li>
+                <li><a href="https://site.ae-salvaterra.pt" target="_blank" title="Site da escola"><i
+                            class="fa-solid fa-school"></i> Escola</a></li>
                 <li><a href="hobbies.html"><i class="fa-solid fa-code"></i> Hobbies</a></li>
                 <li><a href="Aims.html"><i class="fa-solid fa-bullseye"></i> Aims</a></li>
                 <li><a href="Skill.html"><i class="fa-solid fa-bolt"></i> Skills</a></li>
@@ -34,24 +35,18 @@
         </div>
     </nav>
     <section class="about">
-        <h1>Meus Hobbies</h1>
-        <p><big>Aqui Estarão a meus Hobbies</big></p>
-        <hr>
-        <ul>
-            <li>Gosto tbm de tar com amigos</li>
-            <li>Gosto de fazer pequenos projetos</li>
-            <li>gosto de jogar videojogos</li>
-            <li>Gosto de ouvir musica</li>
-        </ul>
-        <h2>Musica Favorita</h2>
-        <hr>
-        <br>
-        <div style="text-align: center;">
-            <video controls loop src="video/dontoliver.mp4" width="350 px"></video>
-        </div>
-        <br>
-        <a href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+        <h2>Contact Me</h2>
+        <form action="#" onsubmit="Verificar(); return false;">
+            <input type="text" name="name" id="Visitante" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <textarea name="message" placeholder="Your Message" required></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="mensagem"></p>
+        <script src="script.js"></script>
     </section>
+    <a href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+
 </body>
 
 </html>
